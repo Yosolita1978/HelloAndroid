@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="name">Udacity Headquarters</string>
+    <string name="address">2465 Latham St</string>
+    <string name="city">Mountain View, CA 94043</string>
+    <string name="phone">650-555-5555</string>
+</resources>

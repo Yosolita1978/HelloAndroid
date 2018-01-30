@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cristina.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_weight="7"
+        android:contentDescription="@null"
+        android:paddingTop="64dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/logoudacity" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingStart="16dp"
+        android:paddingEnd="0dp"
+        android:paddingTop="30dp"
+        android:text="@string/name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingStart="16dp"
+        android:paddingEnd="0dp"
+        android:text="@string/address"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingStart="16dp"
+        android:paddingEnd="0dp"
+        android:text="@string/city"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingStart="16dp"
+        android:paddingEnd="0dp"
+        android:text="@string/phone"
+        android:textSize="18sp" />
+
+</LinearLayout>
